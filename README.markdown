@@ -1,4 +1,4 @@
-# collectd-mikrotik-for-debian
+# collectd-mikrotik
 
 Minimal collectd just for fetching statistics from Mikrotik RouterOS and sending them elsewhere via the `network` plugin.
 
