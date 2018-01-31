@@ -2,7 +2,7 @@
 
 Minimal collectd just for fetching statistics from Mikrotik RouterOS and sending them elsewhere via the `network` plugin.
 
-# Local development
+## Local development
 
 Ensure you have Docker, then run:
 
@@ -22,3 +22,10 @@ make cipackage
 ```
 
 This produces a package in `artifacts/`
+
+## TODO
+
+- Run build in Travis
+- Push packages to packagecloud.io
+- Ship systemd configuration
+- Ship default configuration
