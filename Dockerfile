@@ -19,4 +19,4 @@ COPY . /build
 WORKDIR /build
 
 # Build
-RUN make
+RUN make build
