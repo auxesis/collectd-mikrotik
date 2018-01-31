@@ -27,5 +27,6 @@ This produces a package in `artifacts/`
 
 - Run build in Travis
 - Push packages to packagecloud.io
+- Document how to use the packages that are produced
 - Ship systemd configuration
 - Ship default configuration
