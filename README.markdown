@@ -30,3 +30,4 @@ This produces a package in `artifacts/`
 - Document how to use the packages that are produced
 - Ship systemd configuration
 - Ship default configuration
+- Combine apt-get installs so build goes faster
