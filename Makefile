@@ -1,6 +1,6 @@
 PROJECT_NAME := "collectd-mikrotik"
 PREFIX := "/opt/collectd"
-ARTIFACT_PATH := "/artifacts/collectd-mikrotik_1.0_amd64.deb"
+ARTIFACT_PATH := "/packages/collectd-mikrotik_1.0_amd64.deb"
 
 all: build
 
@@ -15,5 +15,5 @@ cibuild:
 	docker build -t $(PROJECT_NAME) .
 
 cipackage:
-	rm -rf artifacts
-	docker run -v `pwd`/artifacts:/artifacts -ti $(PROJECT_NAME) /usr/bin/make package
+	rm -rf packages
+	docker run -v `pwd`/packages:/packages -ti $(PROJECT_NAME) /usr/bin/make package
